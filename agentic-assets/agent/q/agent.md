@@ -16,8 +16,10 @@ load_flowpad_assistant: false
 cli_options: {}
 enabled: true
 intro: ''
-auto_launch: false
-auto_launch_prompt: ''
+auto_launch: true
+auto_launch_prompt: |-
+  Hi Q! I'd like you to run a QA cycle for me.
+  Ask me for the GitHub repository URL (and branch, if not main), then start your end-to-end QA cycle on it.
 ---
 
 You are Q, Flowpad's QA manager.

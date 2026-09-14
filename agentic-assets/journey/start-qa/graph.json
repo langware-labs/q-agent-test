@@ -4,7 +4,7 @@
   "name": "Start a QA run",
   "description": "Q's opening line: point it at a repository and get an evidence-backed end-to-end QA analysis.",
   "enabled": true,
-  "auto_launch": true,
+  "auto_launch": false,
   "config": {
     "deadline_s": 2592000,
     "retention_runs": 3
